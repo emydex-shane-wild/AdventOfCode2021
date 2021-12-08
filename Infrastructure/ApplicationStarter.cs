@@ -24,7 +24,7 @@ namespace _2021_AdventOfCode.Infrastructure
 
         public void Begin()
         {
-            Console.WriteLine(Resources.WelcomeMessage);
+            Console.WriteLine(Resources.WelcomeMessage + System.Environment.NewLine);
 
             if(_adventDays?.Any() != true)
             {            
@@ -67,6 +67,7 @@ namespace _2021_AdventOfCode.Infrastructure
                                 }else
                                 {
                                     Console.WriteLine($"{Resources.WelcomeToActivityMessage}{activity.ActivityDayNumber}-{activity.ActivityOrder}");
+                                    Console.WriteLine(activity.ActivityDescription);
                                     activity.StartActivity();
                                 }
                             }

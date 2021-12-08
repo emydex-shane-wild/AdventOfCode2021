@@ -13,6 +13,7 @@ namespace _2021_AdventOfCode.Components.Activites
 {
     public interface IAmActivity
     {
+        string ActivityDescription {get;}
         int ActivityDayNumber {get;}
         int ActivityOrder {get;}
         void StartActivity();

@@ -19,6 +19,7 @@ namespace _2021_AdventOfCode.Components.Activites
     {
         #region Implementation of IAmActivity
 
+        public string ActivityDescription => Properties.Resources.Activity1_1Message;
         public int ActivityDayNumber => 1;
         public int ActivityOrder => 1;
         public void StartActivity()

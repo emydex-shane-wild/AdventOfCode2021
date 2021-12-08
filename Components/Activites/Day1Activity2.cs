@@ -11,8 +11,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Windows.Markup;
 using _2021_AdventOfCode.Helpers;
 
 namespace _2021_AdventOfCode.Components.Activites
@@ -21,6 +19,7 @@ namespace _2021_AdventOfCode.Components.Activites
     {
         #region Implementation of IAmActivity
 
+        public string ActivityDescription => Properties.Resources.Activity1_2Message;
         public int ActivityDayNumber => 1;
         public int ActivityOrder => 2;
         public void StartActivity()
