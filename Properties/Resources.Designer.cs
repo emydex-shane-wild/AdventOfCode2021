@@ -61,6 +61,117 @@ namespace _2021_AdventOfCode.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 149
+        ///163
+        ///165
+        ///160
+        ///179
+        ///184
+        ///186
+        ///199
+        ///207
+        ///210
+        ///211
+        ///212
+        ///228
+        ///241
+        ///242
+        ///265
+        ///269
+        ///271
+        ///287
+        ///286
+        ///295
+        ///296
+        ///293
+        ///300
+        ///301
+        ///302
+        ///304
+        ///308
+        ///320
+        ///322
+        ///321
+        ///333
+        ///350
+        ///345
+        ///348
+        ///347
+        ///351
+        ///348
+        ///349
+        ///345
+        ///353
+        ///366
+        ///376
+        ///384
+        ///387
+        ///390
+        ///391
+        ///378
+        ///382
+        ///394
+        ///409
+        ///411
+        ///415
+        ///419
+        ///424
+        ///425
+        ///427
+        ///428
+        ///436
+        ///445
+        ///446
+        ///459
+        ///464
+        ///478
+        ///479
+        ///493
+        ///492
+        ///493
+        ///482
+        ///484
+        ///491
+        ///492
+        ///497
+        ///501
+        ///506
+        ///509
+        ///521
+        ///526
+        ///527
+        ///539
+        ///546
+        ///547
+        ///551
+        ///562
+        ///567
+        ///568
+        ///573
+        ///590
+        ///591
+        ///596
+        ///612
+        ///613
+        ///618
+        ///620
+        ///593
+        ///594
+        ///596
+        ///597
+        ///596
+        ///612
+        ///616
+        ///618
+        ///62 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Activity1_1_Input {
+            get {
+                return ResourceManager.GetString("Activity1_1_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The selected advent day has at least 1 activity. Please select a number with the range 1 - .
         /// </summary>
         internal static string DayActivitiesMessage {

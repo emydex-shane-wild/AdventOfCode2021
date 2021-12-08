@@ -73,6 +73,7 @@
     <Compile Include="Components\Activites\IAmActivity.cs" />
     <Compile Include="Components\AdventDays\AdventDay1.cs" />
     <Compile Include="Components\AdventDays\AdventDayBase.cs" />
+    <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Infrastructure\ApplicationStarter.cs" />
     <Compile Include="Infrastructure\IoC.cs" />
     <Compile Include="Modules\AdventDayModule.cs" />
@@ -96,5 +97,10 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Components\Activites\Activity1-1_Input.txt" />
+    <Content Include="Components\Activites\README_Day1.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

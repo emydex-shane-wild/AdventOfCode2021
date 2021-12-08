@@ -8,6 +8,10 @@
 #endregion
 
 using System;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using _2021_AdventOfCode.Helpers;
 
 namespace _2021_AdventOfCode.Components.Activites
 {
@@ -20,7 +24,33 @@ namespace _2021_AdventOfCode.Components.Activites
         public void StartActivity()
         {
             Console.WriteLine("Activity 1-1 started.");
+            Console.WriteLine("Processing....");
+            var lines = Properties.Resources.Activity1_1_Input.GetLinesFromInput();
+            var isFirst = true;
+            var lastValue = 0;
+            var incrementedCount = 0;
+            foreach (var line in lines)
+            {
+                if(int.TryParse(line, out var value))
+                {
+                    if(isFirst)
+                    {
+                        isFirst = false;
+                    }else
+                    {
+                        if(value > lastValue)
+                        {
+                            incrementedCount++;
+                        }
+                    }
+                    lastValue = value;
+                }
+            }
+            Console.WriteLine($"The number of depth measurements is: {lines.Length}");
+            Console.WriteLine($"The number of depth measurements larger than the previous is: {incrementedCount}");
         }
+
+        
 
         #endregion
     }
