@@ -70,8 +70,10 @@
   <ItemGroup>
     <Compile Include="Components\Activites\Day1Activity1.cs" />
     <Compile Include="Components\Activites\Day1Activity2.cs" />
+    <Compile Include="Components\Activites\Day2Activity1.cs" />
     <Compile Include="Components\Activites\IAmActivity.cs" />
     <Compile Include="Components\AdventDays\AdventDay1.cs" />
+    <Compile Include="Components\AdventDays\AdventDay2.cs" />
     <Compile Include="Components\AdventDays\AdventDayBase.cs" />
     <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Infrastructure\ApplicationStarter.cs" />
@@ -99,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Components\Activites\Activity1-1_Input.txt" />
+    <EmbeddedResource Include="Components\Activites\Activity2-1_Input.txt" />
     <Content Include="Components\Activites\README_Day1.txt" />
   </ItemGroup>
   <ItemGroup />

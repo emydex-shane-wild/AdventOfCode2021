@@ -52,7 +52,7 @@ namespace _2021_AdventOfCode.Infrastructure
                         var activitiesForDay = adventDay.DailyActivities().ToArray();
                         if(activitiesForDay?.Any() != true)
                         {
-                            Console.WriteLine(Resources.LostAdventDay);
+                            Console.WriteLine(Resources.LostActivity);
                         }else
                         {
                             var maxActivityNumber = activitiesForDay.Max(a => a.ActivityOrder);

@@ -218,6 +218,104 @@ namespace _2021_AdventOfCode.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to forward 5
+        ///forward 2
+        ///forward 9
+        ///down 2
+        ///forward 9
+        ///forward 3
+        ///forward 2
+        ///down 6
+        ///forward 3
+        ///forward 3
+        ///down 3
+        ///down 3
+        ///forward 8
+        ///down 5
+        ///forward 7
+        ///forward 9
+        ///forward 9
+        ///forward 6
+        ///forward 9
+        ///forward 3
+        ///forward 3
+        ///forward 1
+        ///forward 7
+        ///down 6
+        ///forward 7
+        ///forward 4
+        ///down 3
+        ///down 1
+        ///forward 4
+        ///down 7
+        ///down 2
+        ///down 8
+        ///forward 9
+        ///down 5
+        ///down 2
+        ///forward 6
+        ///up 4
+        ///down 3
+        ///down 1
+        ///down 6
+        ///down 7
+        ///forward 6
+        ///up 2
+        ///forward 2
+        ///down 9
+        ///down 3
+        ///forward 7
+        ///up 3
+        ///up 7
+        ///forward 8
+        ///forward 7
+        ///down 4
+        ///up 8
+        ///up 1
+        ///forward  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Activity2_1_Input {
+            get {
+                return ResourceManager.GetString("Activity2_1_Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Now, you need to figure out how to pilot this thing.
+        ///
+        ///It seems like the submarine can take a series of commands like forward 1, down 2, or up 3:
+        ///
+        ///forward X increases the horizontal position by X units.
+        ///down X increases the depth by X units.
+        ///up X decreases the depth by X units.
+        ///Note that since you&apos;re on a submarine, down and up affect your depth, and so they have the opposite result of what you might expect.
+        ///
+        ///The submarine seems to already have a planned course (your puzzle input). You should probab [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Activity2_1Message {
+            get {
+                return ResourceManager.GetString("Activity2-1Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Based on your calculations, the planned course doesn&apos;t seem to make any sense. You find the submarine manual and discover that the process is actually slightly more complicated.
+        ///
+        ///In addition to horizontal position and depth, you&apos;ll also need to track a third value, aim, which also starts at 0. The commands also mean something entirely different than you first thought:
+        ///
+        ///down X increases your aim by X units.
+        ///up X decreases your aim by X units.
+        ///forward X does two things:
+        ///It increases your horizontal p [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Activity2_2Message {
+            get {
+                return ResourceManager.GetString("Activity2-2Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The selected advent day has at least 1 activity. Please select a number with the range 1 - .
         /// </summary>
         internal static string DayActivitiesMessage {
